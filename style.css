@@ -30,7 +30,7 @@ nav{
     margin-right: 145px;;
     padding: 17px 24px;
     border-radius: 8px;
-    opacity: 80%;
+    opacity: 70%;
     border-width: thin;
 }
 /* Nav section End */
@@ -42,6 +42,7 @@ nav{
     background-repeat: no-repeat;
     background-size: cover;
     margin-top: 40px;
+    height: 652px;
 }
 
 .banner-container{
@@ -77,16 +78,101 @@ nav{
     background-color: #0D1321;
     padding: 20px 24px;
     border-radius: 8px;
-    margin-top: 10px;
+    margin-top: 30px;
 }
 
 .banner-button a{
     color: #FFFFFF;
     font-size: 20px;
     font-weight: 600;
-    padding: 20px 24px;
     word-spacing: 15px;
     text-decoration: none;
 }
 /* Banner section End */
 
+.development{
+    height: 1393px;
+    width: 1140px;
+    /* background-color: aquamarine; */
+    margin: 60px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.development-container{
+
+    height: 1233px;
+    width: 946px;
+    /* background-color: cadetblue; */
+
+}
+
+.development-content{
+    text-align: center;
+}
+
+.development-heading{ 
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+.development-description{
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 70%;
+}
+
+.development-figure{
+    display: flex;
+    justify-content: space-between;
+    margin: 48px 47px;
+
+}
+
+.figure-content{
+    height: 219px;
+    width: 477px;
+}
+
+.figure-heading{
+    font-size: 24px;
+    font-weight: bold;
+    color: #0D1321;
+    opacity: 70%;
+}
+
+.figure-discription{
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 70%;
+
+}
+
+.figure-button{
+    font-size: 20px;
+    font-weight: 600;
+    padding: 12px 20px;
+    text-decoration: none;
+    background-color: white;
+    border-width: thin;
+
+}
+.figure-button a{
+    text-decoration: none;
+    color: #0D1321;
+    opacity: 70%;
+}
+
+.figure-image{
+
+    height: 240px;
+    width: 274px;
+}
+
+.reverse-figure{
+    display: flex;
+    flex-direction: row-reverse;
+
+}
