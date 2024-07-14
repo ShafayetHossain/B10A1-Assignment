@@ -56,10 +56,6 @@ nav{
     margin-top: 26px;
 }
 
-/* .banner-content{
-
-} */
-
 .banner-heading{
     font-size: 48px;
     font-weight: 800;
@@ -89,12 +85,12 @@ nav{
 /* Banner section End */
 
 
+
 /* Development section Start */
 
 .development{
     height: 1300px;
     width: 1140px;
-    /* background-color: aquamarine; */
     margin: 60px auto;
     display: flex;
     justify-content: center;
@@ -102,11 +98,8 @@ nav{
 }
 
 .development-container{
-
     height: 1233px;
     width: 946px;
-    /* background-color: cadetblue; */
-
 }
 
 .development-content{
@@ -181,6 +174,7 @@ nav{
 
 
 /* Inspiration section Start */
+
 .inspiration{
     width: 1140px;
     height: 775px;
@@ -223,5 +217,140 @@ nav{
     border-radius: 16px;
     border-width: thin;
     border-color: rgba(0, 0, 0, 0.151);
-    margin-top: 48px;
+    margin-top: 38px;
+}
+/* Inspiration section End */
+
+
+
+/* Target section Start */
+
+.target-container{
+    width: 1140px;
+    height: 480px;
+    margin: 100px auto 48px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+ 
+}
+
+.target-content{
+    text-align: center;
+    width: 946px;
+    height: 160px;
+
+}
+
+.target-heading{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+.target-description{
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 70%;
+
+}
+
+.target-list{
+    display: flex;
+    gap: 20px;
+
+}
+
+.target-item{
+    height: 220px;
+    width: 280px;
+    padding: 40px;
+    border-radius: 16px;
+}
+.html-bg{
+    background-color: #FFF6F4;
+}
+.css-bg{
+    background-color: #F2F6FE;
+}
+.js-bg{
+    background-color: #FFF6F4;
+}
+
+.item-heading{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+}
+
+.item-description{
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 70%;
+}
+.item-link{
+    font-size: 16px;
+    color: #0D1321;
+    font-weight: bold;
+
+}
+/* Target section Start */
+
+.support{
+    width: 1140px;
+    height: 313px;
+    
+    background-image:linear-gradient(180.00deg, 
+    rgb(16, 16, 16) -19.5%,
+    rgba(16, 16, 16, 0) 100%), 
+    url(assets/handshake.jpg);
+
+    background-size: 100% 135%;
+    background-repeat: no-repeat;
+    border-radius: 16px;
+    margin: 10px auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+}
+.support-content{
+    width: 650px;
+    height: 105px;
+    text-align: center;
+}
+.support-heading{
+    font-size: 32px;
+    font-weight: 800;
+    color: #FFFFFF;
+}
+
+.support-description{
+    font-size: 16px;
+    color: #FFFFFF;
+    opacity: 70%;
+
+}
+.support-input{
+    text-align: center;
+}
+
+.support-itext{
+
+    height: 55px;
+    width: 540px;
+    border-radius: 16px;
+    border: none;
+}
+.support-sbtn{
+    width: 120px;
+    height: 55px;
+    border-radius: 8px;
+    background-color: white;
+    font-size: 20px;
+    font-weight: 600;
+}
+input::placeholder{
+    font-size: 18px;
+    padding: 19px;
 }
