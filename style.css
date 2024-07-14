@@ -1,9 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
-/* *{
-    margin: 0px;
-    padding: 0px;
-} */
 body{
     font-family: "Azeret Mono", monospace;
 }
@@ -34,6 +30,8 @@ nav{
     border-width: thin;
 }
 /* Nav section End */
+
+
 
 
 /* Banner section Start */
@@ -90,8 +88,11 @@ nav{
 }
 /* Banner section End */
 
+
+/* Development section Start */
+
 .development{
-    height: 1393px;
+    height: 1300px;
     width: 1140px;
     /* background-color: aquamarine; */
     margin: 60px auto;
@@ -175,4 +176,52 @@ nav{
     display: flex;
     flex-direction: row-reverse;
 
+}
+/* Development section End */
+
+
+/* Inspiration section Start */
+.inspiration{
+    width: 1140px;
+    height: 775px;
+    margin: 0px auto;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+
+}
+
+.inspiration-content{
+    height: 113px;
+    width: 850px;
+    text-align: center;
+
+}
+
+.inspiration-heading{
+    font-size: 32px;
+    font-weight: 800;
+    color: #0D1321;
+
+}
+
+.inspiration-description{
+    font-size: 16px;
+    color: #0D1321;
+    opacity: 70%;
+    padding: 24px;
+}
+
+.inspiration-vedio iframe{
+    border-radius: 16px;
+}
+.inspiration-vedio{
+    border: 1px solid black;
+    padding: 32px;
+    border-radius: 16px;
+    border-width: thin;
+    border-color: rgba(0, 0, 0, 0.151);
+    margin-top: 48px;
 }
